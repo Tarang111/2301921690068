@@ -22,10 +22,10 @@ async function fetchnotifications() {
 
 
      const top10 = [
-        ...placements,
-        ...results,
-        ...events
-    ].slice(0, 10);
+       ...placements.slice(0, 5),
+    ...results.slice(0, 3),
+    ...events.slice(0, 2)
+    ]
 
   
      
